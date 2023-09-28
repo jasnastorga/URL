@@ -1,0 +1,3 @@
+web: gunicorn wsgi:app
+// serving using gunicorn: deployment for virtual machines
+// go into the wsgi file and run the app
